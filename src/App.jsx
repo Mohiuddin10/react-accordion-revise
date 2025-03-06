@@ -1,3 +1,4 @@
+import AccordianNew from "./components/accordionNew"
 import Accordian from "./components/accordions"
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
   return (
     <>
       {/* Accordian Component  */}
-      <Accordian />
-
+      {/* <Accordian /> */}
+      <AccordianNew />
     </>
   )
 }
